@@ -1,2 +1,2 @@
 # StreamLens
-A streaming platform developed using react and spring
+A stream monitoring tool developed using react and spring
