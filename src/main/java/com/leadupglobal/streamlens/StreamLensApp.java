@@ -7,8 +7,8 @@ import org.springframework.context.annotation.Import;
 
 @Import(JpaConfiguration.class)
 @SpringBootApplication(scanBasePackages = {"com.leadupglobal.streamlens"})
-public class Main {
+public class StreamLensApp {
     public static void main(String[] args) {
-        SpringApplication.run(Main.class, args);
+        SpringApplication.run(StreamLensApp.class, args);
     }
 }

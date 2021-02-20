@@ -1,8 +1,8 @@
 var app = angular.module('streamLens', ['ui.router', 'ngStorage']);
 
 app.constant('urls', {
-    BASE: 'http://localhost:8080/streamlens',
-    USER_SERVICE_API : 'http://localhost:8080/streamlens/api/user/'
+    BASE: 'http://localhost:8080/StreamLensApp',
+    USER_SERVICE_API : 'http://localhost:8080/StreamLensApp/api/user/'
 });
 
 app.config(['$stateProvider', '$urlRouterProvider',

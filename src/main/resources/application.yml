@@ -1,7 +1,7 @@
 ---
 server:
   port: 8080
-  contextPath: /StreamLens
+  contextPath: /StreamLensApp
 ---
 spring:
   profiles: local, default
@@ -23,7 +23,7 @@ spring:
   profiles: prod
 datasource:
   sampleapp:
-    url: jdbc:mysql://localhost:3306/websystique
+    url: jdbc:mysql://localhost:3306/streamlens
     username: myuser
     password: mypassword
     driverClassName: com.mysql.jdbc.Driver
